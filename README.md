@@ -22,10 +22,6 @@
   <a href="https://github.com/sfx2me/sfx2me/richio.io-bot#changelog">📜・ChangeLog</a>
 </h4>
 
-<h2 align="center">
-  Richup.io Raiding Tool 🚀
-</h2>
-
 ---
 
 ## :fire: Features
