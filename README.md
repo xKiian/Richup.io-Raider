@@ -2,9 +2,6 @@
   Richup.io Raider 🚀
 </h1>
 
-<p align="center">
-  Richup.io Spammer is a tool to raid richup.io servers
-</p>
 
 <p align="center"> 
   <kbd>
