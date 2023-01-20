@@ -10,16 +10,16 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/languages/top/sfx2me/sfx2me/richio.io-bot?style=flat-square"> </a>
-  <img src="https://img.shields.io/github/last-commit/sfx2me/sfx2me/richio.io-bot?style=flat-square"> </a>
-  <img src="https://img.shields.io/github/stars/sfx2me/sfx2me/richio.io-bot?color=7F9DE0&label=Stars&style=flat-square"> </a>
-  <img src="https://img.shields.io/github/forks/sfx2me/sfx2me/richio.io-bot?color=7F9DE0&label=Forks&style=flat-square"> </a>
+  <img src="https://img.shields.io/github/languages/top/sfx2me/richio.io-bot?style=flat-square"> </a>
+  <img src="https://img.shields.io/github/last-commit/sfx2me/richio.io-bot?style=flat-square"> </a>
+  <img src="https://img.shields.io/github/stars/sfx2me/richio.io-bot?color=7F9DE0&label=Stars&style=flat-square"> </a>
+  <img src="https://img.shields.io/github/forks/sfx2me/richio.io-bot?color=7F9DE0&label=Forks&style=flat-square"> </a>
 </p>
 
 <h4 align="center">
   <a href="https://discord.gg/deobf">🌌・Discord</a>
-  <a href="https://github.com/sfx2me/sfx2me/richio.io-bot#license">💻・License</a>
-  <a href="https://github.com/sfx2me/sfx2me/richio.io-bot#changelog">📜・ChangeLog</a>
+  <a href="https://github.com/sfx2me/richio.io-bot#license">💻・License</a>
+  <a href="https://github.com/sfx2me/richio.io-bot#changelog">📜・ChangeLog</a>
 </h4>
 
 ---
