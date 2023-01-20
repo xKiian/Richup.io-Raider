@@ -1,18 +1,10 @@
-import websocket, threading, random, os, time
+import websocket, threading, random, os, time, colorama
+
 
 
 def logo():
-    os.system("cls")
-    print("""
-
-                              ██████╗ ██╗ ██████╗██╗  ██╗██╗   ██╗██████╗ ██╗ ██████╗ 
-                              ██╔══██╗██║██╔════╝██║  ██║██║   ██║██╔══██╗██║██╔═══██╗
-                              ██████╔╝██║██║     ███████║██║   ██║██████╔╝██║██║   ██║
-                              ██╔══██╗██║██║     ██╔══██║██║   ██║██╔═══╝ ██║██║   ██║
-                              ██║  ██║██║╚██████╗██║  ██║╚██████╔╝██║██╗  ██║╚██████╔╝
-                              ╚═╝  ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝╚═╝  ╚═╝ ╚═════╝ 
-                                                    by xKian                  
-    """)    
+    os.system("cls && title Richup.io botter by xKian ^| Waiting for game code...")
+    print(colorama.Fore.CYAN +'    \n                  naiKx yb                                                         \n ╝═════╚ ╝═╚ ╝═╚ ╝═╚ ╝═════╚ ╝═╚  ╝═╚╝═════╚ ╝═╚╝═╚  ╝═╚                                 \n╝╔██████╚║██ ╗██ ║██╝╔██████╚║██  ║██╗██████╚║██║██  ║██                                 \n║██   ║██║██ ╝═══╔██║██   ║██║██══╔██     ║██║██╗██══╔██                                 \n║██   ║██║██╝╔██████║██   ║██║███████     ║██║██╝╔██████                                 \n╗██═══╔██║██╗██══╔██║██   ║██║██  ║██╝════╔██║██╗██══╔██                                 \n ╗██████ ╗██ ╗██████╗██   ╗██╗██  ╗██╗██████ ╗██ ╗██████                                 \n\n'[::-1])    #reverse is funny
 
 
 success, failed = 0, 0
@@ -20,7 +12,7 @@ success, failed = 0, 0
 class spam:
     def __init__(self):
         self.ws     = websocket.WebSocket()
-        self.colors = ["#7F5ADA", "#FFC73F", "#9A6E5E"]
+        self.colors = ["#9A6E5E"] # you can add more colors 
         
     def send(self, payload: str) -> None:
         self.ws.send(payload)
@@ -42,8 +34,7 @@ class spam:
             self.recieve()
             self.send('42/api/game,["enter-room",{"roomId":"'+gamecode+'"}]')
             self.recieve()
-            self.send('42/api/game,["join-game",{"roomId":"'+gamecode+'","name":"xKian'+self.getrandomnumber()+'","appearance":"'+random.choice(self.colors)+'"}]')
-            self.recieve()
+            self.send('42/api/game,["join-game",{"roomId":"'+gamecode+'","name":"'+'naiKx'[::-1]+self.getrandomnumber()+'","appearance":"'+random.choice(self.colors)+'"}]')
             self.ws.close()
             success += 1
         except:failed += 1
@@ -52,21 +43,17 @@ class spam:
 def title():
     global success, failed
     while True:
-        os.system("title Richup.io botter by xKian ^| Success: "+str(success)+" Failed: "+str(failed))
-        print("Success: "+str(success)+" Failed: "+str(failed), end="\r")
+        os.system(f"title Richup.io botter by xKian ^| Code: {gamecode} ^| Success: {str(success)} Failed: {str(failed)}")
+        print("[+] Success: "+str(success)+" Failed: "+str(failed), end="\r")
         time.sleep(0.5)
 
 def main():
     global gamecode
     logo()
-    os.system("title Richup.io botter by xKian ^| Waiting for game code...")
-    gamecode = input("[?] Link/code: ")
-    try:gamecode = gamecode.split("/")[-1]
-    except:pass
+    gamecode = input("[?] Link/code: ").split("/")[-1]
     logo()
-    threading.Thread(target=title).start()
-    while True:
-        threading.Thread(target=spam().join).start()
+    threading.Thread(            target=title)      .start()
+    while True: threading.Thread(target=spam().join).start()
 
 if __name__ == "__main__":
     main()
