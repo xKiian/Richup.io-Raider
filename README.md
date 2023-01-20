@@ -18,8 +18,6 @@
 
 <h4 align="center">
   <a href="https://discord.gg/deobf">🌌・Discord</a>
-  <a href="https://github.com/sfx2me/richio.io-bot#license">💻・License</a>
-  <a href="https://github.com/sfx2me/richio.io-bot#changelog">📜・ChangeLog</a>
 </h4>
 
 ---
