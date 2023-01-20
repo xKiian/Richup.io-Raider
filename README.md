@@ -33,11 +33,9 @@
 ```
 ---
 
-<p align="center"> 
-  <kbd>
+
 https://user-images.githubusercontent.com/88455386/213765669-95a53a14-f0eb-4445-b409-7d3d5d86aab2.mp4
-  </kbd>
-</p>
+
 
 ---
 
