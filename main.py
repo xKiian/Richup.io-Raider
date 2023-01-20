@@ -1,5 +1,9 @@
-import websocket, threading, random, os, time, colorama
-
+import websocket
+import threading
+import colorama
+import random
+import time
+import os
 
 
 def logo():
