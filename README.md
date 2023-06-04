@@ -10,10 +10,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/languages/top/sfx2me/richio.io-bot?style=flat-square"> </a>
-  <img src="https://img.shields.io/github/last-commit/sfx2me/richio.io-bot?style=flat-square"> </a>
-  <img src="https://img.shields.io/github/stars/sfx2me/richio.io-bot?color=7F9DE0&label=Stars&style=flat-square"> </a>
-  <img src="https://img.shields.io/github/forks/sfx2me/richio.io-bot?color=7F9DE0&label=Forks&style=flat-square"> </a>
+  <img src="https://img.shields.io/github/languages/top/xKiian/richio.io-bot?style=flat-square"> </a>
+  <img src="https://img.shields.io/github/last-commit/xKiian/richio.io-bot?style=flat-square"> </a>
+  <img src="https://img.shields.io/github/stars/xKiian/richio.io-bot?color=7F9DE0&label=Stars&style=flat-square"> </a>
+  <img src="https://img.shields.io/github/forks/xKiian/richio.io-bot?color=7F9DE0&label=Forks&style=flat-square"> </a>
 </p>
 
 <h4 align="center">
